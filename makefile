@@ -7,8 +7,8 @@ python.lflags  = -lpython$(python.version)$(python.abiflag)
 python.root    = $(dir $(python))
 cython         = $(python.root)cython
 
-lua.Iflags = -I$(lua.root)/include
-lua.Lflags = -L$(lua.root)/lib
+lua.Iflags = -I$(lua.include)
+lua.Lflags = -L$(lua.lib)
 lua.lflags = -llua
 
 packages = python lua

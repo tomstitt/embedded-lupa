@@ -15,7 +15,7 @@ To build:
 
 ```shell
 # lua.root is only needed when building the example
-make python=/path/to/your/python [lua.root=/path/to/your/lua/install] [CC=]
+make python=/path/to/your/python [lua.include=/path/to/your/lua/install/include] [lua.lib=/path/to/your/lua/install/lib] [CC=]
 ```
 
 Tested with Python 2.7 and 3.6.
